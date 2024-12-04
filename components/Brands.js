@@ -16,7 +16,7 @@ const Brands = () => {
 
         gsap.to(item, {
           x: -item.offsetWidth, 
-          duration: 8 + index * 0.5, 
+          duration: 10 + index * 0.5, 
           ease: "linear",
           repeat: -1, 
           onUpdate: function() {
