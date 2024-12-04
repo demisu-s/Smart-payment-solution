@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.mil-testimonials-1.swiper,
+.mil-testimonials-2.swiper {
+  overflow: visible;
+}
+
+.mil-accordion-group .mil-accordion-content {
+  transition: height 1s ease;
+}
+.mil-accordion-group.mil-active .mil-accordion-content {
+  height: auto !important;
+}
+.mil-accordion-icon i {
+  transform: rotate(90deg);
+  transition: 0.3s all;
+}
+.mil-accordion-group .mil-accordion-icon {
+  transition: 0.3s all;
+}
+.mil-accordion-group.mil-active .mil-accordion-icon {
+  background-color: rgb(35, 61, 255) !important;
+}
+.mil-accordion-group.mil-active .mil-accordion-icon i {
+  transform: rotate(180deg);
+  color: white;
+}
